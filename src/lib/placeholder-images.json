@@ -1,0 +1,358 @@
+{
+  "placeholderImages": [
+    {
+      "id": "SHOE-8782",
+      "description": "A pair of blue and white youth sneakers with a futuristic design.",
+      "imageUrl": "https://images.unsplash.com/photo-1615290642708-a37192ba54ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxibHVlJTIwc25lYWtlcnxlbnwwfHx8fDE3NjM5MTg1MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "blue sneaker"
+    },
+    {
+      "id": "SHOE-7878",
+      "description": "Sturdy adult boots with purple accents, designed for trekking.",
+      "imageUrl": "https://images.unsplash.com/photo-1655976795408-92a8498838c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoaWtpbmclMjBib290fGVufDB8fHx8MTc2Mzg5Njk0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hiking boot"
+    },
+    {
+      "id": "SHOE-7839",
+      "description": "Light green kids' sandals perfect for watery adventures.",
+      "imageUrl": "https://images.unsplash.com/photo-1669774119496-0ea0b7250e1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxncmVlbiUyMHNhbmRhbHxlbnwwfHx8fDE3NjM5MTg1MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "green sandal"
+    },
+    {
+      "id": "SHOE-2456",
+      "description": "Sleek red running shoes for adults, built for speed.",
+      "imageUrl": "https://images.unsplash.com/photo-1635252517690-1a4438427ba1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyZWQlMjBydW5uZXJ8ZW58MHx8fHwxNzYzOTE4NTI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "red runner"
+    },
+    {
+      "id": "SHOE-5432",
+      "description": "Bright yellow first-walker shoes for kids.",
+      "imageUrl": "https://images.unsplash.com/photo-1721924335651-378eece1b7d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx5ZWxsb3clMjBzaG9lfGVufDB8fHx8MTc2MzkxODUyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "yellow shoe"
+    },
+    {
+      "id": "SHOE-9876",
+      "description": "Gray high-top sneakers for urban youth.",
+      "imageUrl": "https://images.unsplash.com/photo-1700407592504-f4de855d559a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Z3JheSUyMHNuZWFrZXJ8ZW58MHx8fHwxNzYzOTE4NTI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gray sneaker"
+    },
+    {
+      "id": "SHOE-1122",
+      "description": "Rugged brown hiking boots for adults.",
+      "imageUrl": "https://images.unsplash.com/photo-1744814917810-269fbf29ca00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxicm93biUyMGJvb3R8ZW58MHx8fHwxNzYzOTE4NTI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "brown boot"
+    },
+    {
+      "id": "SHOE-3344",
+      "description": "Cyan flip-flops for youth, ideal for the beach.",
+      "imageUrl": "https://images.unsplash.com/photo-1568901578471-a1d5af772617?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxibHVlJTIwZmxpcC1mbG9wfGVufDB8fHx8MTc2MzkxODUyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "blue flip-flop"
+    },
+    {
+      "id": "SHOE-5566",
+      "description": "Pink sparkly shoes for kids with a starlight theme.",
+      "imageUrl": "https://images.unsplash.com/photo-1727703215357-3522297d66e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwaW5rJTIwc2hvZXxlbnwwfHx8fDE3NjM5MTg1MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pink shoe"
+    },
+    {
+      "id": "SHOE-7788",
+      "description": "Dark, stylish loafers for adults, perfect for the city.",
+      "imageUrl": "https://images.unsplash.com/photo-1657850064402-973260e4e272?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxibGFjayUyMGxvYWZlcnxlbnwwfHx8fDE3NjM5MTg1MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "black loafer"
+    },
+    {
+      "id": "SHOE-1234",
+      "description": "Purple and blue kids' sneakers with a space theme.",
+      "imageUrl": "https://images.unsplash.com/photo-1631312782643-883d1bfc84c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwdXJwbGUlMjBzbmVha2VyfGVufDB8fHx8MTc2MzkxODUyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "purple sneaker"
+    },
+    {
+      "id": "SHOE-5678",
+      "description": "Golden-brown climbing shoes for adults.",
+      "imageUrl": "https://images.unsplash.com/photo-1698352709078-7dde09852142?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjbGltYmluZyUyMHNob2V8ZW58MHx8fHwxNzYzOTE4NTI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "climbing shoe"
+    },
+    {
+      "id": "SHOE-8790",
+      "description": "Black classic formal shoes for men.",
+      "imageUrl": "https://images.unsplash.com/photo-1668069226492-508742b03147?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmb3JtYWwlMjBzaG9lc3xlbnwwfHx8fDE3NjQzNDMxMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "formal shoes"
+    },
+    {
+      "id": "SHOE-8791",
+      "description": "Elegant brown leather dress shoes.",
+      "imageUrl": "https://images.unsplash.com/photo-1657036779347-db31ebaad251?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkcmVzcyUyMHNob2VzfGVufDB8fHx8MTc2NDMyNzE4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dress shoes"
+    },
+    {
+      "id": "SHOE-8792",
+      "description": "Stylish wingtip brogues for formal occasions.",
+      "imageUrl": "https://images.unsplash.com/photo-1710196301218-c9a08d142c68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d2luZ3RpcCUyMGJyb2d1ZXN8ZW58MHx8fHwxNzY0MzQzMTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wingtip brogues"
+    },
+    {
+      "id": "SHOE-8793",
+      "description": "Polished oxford shoes in dark cherry.",
+      "imageUrl": "https://images.unsplash.com/photo-1576133385309-203e67da8e58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxveGZvcmQlMjBzaG9lc3xlbnwwfHx8fDE3NjQzNDMxMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "oxford shoes"
+    },
+    {
+      "id": "SHOE-8794",
+      "description": "Suede loafers for a smart casual look.",
+      "imageUrl": "https://images.unsplash.com/photo-1709186404666-ee89a090575c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdWVkZSUyMGxvYWZlcnN8ZW58MHx8fHwxNzY0MzQzMTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "suede loafers"
+    },
+    {
+      "id": "SHOE-2457",
+      "description": "Lightweight running shoes with mesh upper.",
+      "imageUrl": "https://images.unsplash.com/photo-1587587448924-b5a1db520d29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxydW5uaW5nJTIwc2hvZXN8ZW58MHx8fHwxNzY0MjQwNjQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "running shoes"
+    },
+    {
+      "id": "SHOE-2458",
+      "description": "Basketball high-tops with ankle support.",
+      "imageUrl": "https://images.unsplash.com/photo-1595909236612-9fd30b476365?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxiYXNrZXRiYWxsJTIwc2hvZXN8ZW58MHx8fHwxNzY0MzQzMTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "basketball shoes"
+    },
+    {
+      "id": "SHOE-2459",
+      "description": "Cross-training shoes for gym workouts.",
+      "imageUrl": "https://images.unsplash.com/photo-1627847314307-148d89709094?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0cmFpbmluZyUyMHNob2VzfGVufDB8fHx8MTc2NDM0MzEyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "training shoes"
+    },
+    {
+      "id": "SHOE-2460",
+      "description": "Minimalist trail running shoes.",
+      "imageUrl": "https://images.unsplash.com/photo-1614638964199-576734e56290?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0cmFpbCUyMHNob2VzfGVufDB8fHx8MTc2NDM0MzEyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "trail shoes"
+    },
+    {
+      "id": "SHOE-2461",
+      "description": "Classic canvas tennis shoes.",
+      "imageUrl": "https://images.unsplash.com/photo-1601646778735-3eaaa2a8d962?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0ZW5uaXMlMjBzaG9lc3xlbnwwfHx8fDE3NjQzNDMxMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tennis shoes"
+    },
+    {
+      "id": "SHOE-5433",
+      "description": "Toddler shoes with velcro straps.",
+      "imageUrl": "https://images.unsplash.com/photo-1605317143724-025ceb00651c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b2RkbGVyJTIwc2hvZXN8ZW58MHx8fHwxNzY0MzQzMTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "toddler shoes"
+    },
+    {
+      "id": "SHOE-5434",
+      "description": "Kids light-up sneakers.",
+      "imageUrl": "https://images.unsplash.com/photo-1763749530598-081a259e5bf6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsaWdodC11cCUyMHNuZWFrZXJzfGVufDB8fHx8MTc2NDM0MzEyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "light-up sneakers"
+    },
+    {
+      "id": "SHOE-5435",
+      "description": "Small boots for children, waterproof.",
+      "imageUrl": "https://images.unsplash.com/photo-1709768669201-40b3a25b6e74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxraWRzJTIwYm9vdHN8ZW58MHx8fHwxNzY0MzQzMTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kids boots"
+    },
+    {
+      "id": "SHOE-5436",
+      "description": "Children's sandals with closed toe.",
+      "imageUrl": "https://images.unsplash.com/photo-1676059056793-c74679f60518?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlsZHJlbiUyMHNhbmRhbHN8ZW58MHx8fHwxNzY0MzQzMTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children sandals"
+    },
+    {
+      "id": "SHOE-5437",
+      "description": "First steps leather baby shoes.",
+      "imageUrl": "https://images.unsplash.com/photo-1565430076958-f6579417a6ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxiYWJ5JTIwc2hvZXN8ZW58MHx8fHwxNzY0MzQzMTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "baby shoes"
+    },
+    {
+      "id": "SHOE-1001",
+      "description": "Classic white canvas sneakers.",
+      "imageUrl": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMHNuZWFrZXJ8ZW58MHx8fHwxNzE2NDk2ODUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "white sneaker"
+    },
+    {
+      "id": "SHOE-1002",
+      "description": "Urban style black leather sneakers.",
+      "imageUrl": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwzfHxibGFjayUyMHNuZWFrZXJ8ZW58MHx8fHwxNzE2NDk2ODUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "black sneaker"
+    },
+    {
+      "id": "SHOE-2001",
+      "description": "Dark brown leather chelsea boots.",
+      "imageUrl": "https://images.unsplash.com/photo-1631312782643-883d1bfc84c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwyfHxicm93biUyMGJvb3R8ZW58MHx8fHwxNzE2NDk2OTU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "brown boot"
+    },
+    {
+      "id": "SHOE-2002",
+      "description": "Gray insulated winter boots for youth.",
+      "imageUrl": "https://images.unsplash.com/photo-1608256247924-a745c91f1b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHx3aW50ZXIlMjBib290fGVufDB8fHx8MTcxNjQ5Njk1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "winter boot"
+    },
+    {
+      "id": "SHOE-3001",
+      "description": "Leather flip-flop sandals for adults.",
+      "imageUrl": "https://images.unsplash.com/photo-1627054231641-a62a98457f5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxsZWF0aGVyJTIwc2FuZGFsc3xlbnwwfHx8fDE3MTY0OTcwMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "leather sandals"
+    },
+    {
+      "id": "SHOE-3002",
+      "description": "Pale pink platform sandals for youth.",
+      "imageUrl": "https://images.unsplash.com/photo-1603540323062-3c873a1c7423?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxwaW5rJTIwcGxhdGZvcm0lMjBzYW5kYWxzfGVufDB8fHx8MTcxNjQ5NzAyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pink platform"
+    },
+    {
+      "id": "SHOE-3003",
+      "description": "Dark gray trekking sandals for adults.",
+      "imageUrl": "https://images.unsplash.com/photo-1604671363555-0a78f0b1a6b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHx0cmVra2luZyUyMHNhbmRhbHN8ZW58MHx8fHwxNzE2NDk3MDI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "trekking sandals"
+    },
+    {
+      "id": "SHOE-9001",
+      "description": "Comfy light gray plush slippers for adults.",
+      "imageUrl": "https://images.unsplash.com/photo-1605812398516-242862e39a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxwbHVzaCUyMHNsaXBwZXJzfGVufDB8fHx8MTcxNjQ5NzE1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "plush slippers"
+    },
+    {
+      "id": "SHOE-9002",
+      "description": "Navy blue memory foam slippers for adults.",
+      "imageUrl": "https://images.unsplash.com/photo-1590798642706-9a1b1a0302b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxtZW1vcnklMjBmb2FtJTIwc2xpcHBlcnN8ZW58MHx8fHwxNzE2NDk3MTU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "foam slippers"
+    },
+    {
+      "id": "SHOE-9003",
+      "description": "Kids' animal slippers, shaped like a fox.",
+      "imageUrl": "https://images.unsplash.com/photo-1582015291953-62586616de32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxhbmltYWwlMjBzbGlwcGVyc3xlbnwwfHx8fDE3MTY0OTcxNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "animal slippers"
+    },
+    {
+      "id": "SHOE-9004",
+      "description": "Pink slipper boots for youth.",
+      "imageUrl": "https://images.unsplash.com/photo-1560346740-a9686362a945?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxzbGlwcGVyJTIwYm9vdHN8ZW58MHx8fHwxNzE2NDk3MTU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "slipper boots"
+    },
+    {
+      "id": "SHOE-9005",
+      "description": "Mint green open-toe summer slippers.",
+      "imageUrl": "https://images.unsplash.com/photo-1623199898235-a508493c1265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxv-Blbi10b2UlMjBzbGlwcGVyc3xlbnwwfHx8fDE3MTY0OTcxNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "open-toe slippers"
+    },
+    {
+      "id": "SHOE-9101",
+      "description": "Classic burgundy penny loafers for adults.",
+      "imageUrl": "https://images.unsplash.com/photo-1599388136367-293444850720?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxwZW5ueSUyMGxvYWZlcnN8ZW58MHx8fHwxNzE2NDk3MjIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "penny loafers"
+    },
+    {
+      "id": "SHOE-9102",
+      "description": "Forest green driving loafers for adults.",
+      "imageUrl": "https://images.unsplash.com/photo-1631401399839-897d293b66b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxkcml2aW5nJTIwbG9hZmVyc3xlbnwwfHx8fDE3MTY0OTcyMjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "driving loafers"
+    },
+    {
+      "id": "SHOE-9103",
+      "description": "Beige loafers with tassels for adults.",
+      "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHx0YXNzZWwlMjBsb2FmZXJzfGVufDB8fHx8MTcxNjQ5NzIyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tassel loafers"
+    },
+    {
+      "id": "SHOE-9104",
+      "description": "Woven coffee-colored leather loafers for adults.",
+      "imageUrl": "https://images.unsplash.com/photo-1626372580190-410a5665cf5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHx3b3ZlbiUyMGxvYWZlcnN8ZW58MHx8fHwxNzE2NDk3MjIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woven loafers"
+    },
+    {
+      "id": "SHOE-9201",
+      "description": "Classic blue rubber clogs.",
+      "imageUrl": "https://images.unsplash.com/photo-1603145733316-74623f43c333?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxibHVlJTIwY2xvZ3N8ZW58MHx8fHwxNzE2NDk3Mjk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "blue clogs"
+    },
+    {
+      "id": "SHOE-9202",
+      "description": "Fuchsia plush-lined clogs.",
+      "imageUrl": "https://images.unsplash.com/photo-1616223731140-94d86895c378?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxwbHVzaCUyMGNsb2dzfGVufDB8fHx8MTcxNjQ5NzI5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "plush clogs"
+    },
+    {
+      "id": "SHOE-9203",
+      "description": "Professional white clogs for medical staff.",
+      "imageUrl": "https://images.unsplash.com/photo-1631214524029-a35606f56a73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMGNsb2dzfGVufDB8fHx8MTcxNjQ5NzI5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "white clogs"
+    },
+    {
+      "id": "SHOE-9204",
+      "description": "Green garden clogs.",
+      "imageUrl": "https://images.unsplash.com/photo-1618779949198-d34f0a99e4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGNsb2dzfGVufDB8fHx8MTcxNjQ5NzI5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "green clogs"
+    },
+    {
+      "id": "SHOE-9205",
+      "description": "Sunny yellow platform clogs.",
+      "imageUrl": "https://images.unsplash.com/photo-1605557635954-c9b88d1d2346?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHx5ZWxsb3clMjBjbG9nc3xlbnwwfHx8fDE3MTY0OTcyOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "yellow clogs"
+    },
+    {
+      "id": "SHOE-9301",
+      "description": "Wheat-colored steel-toed boots.",
+      "imageUrl": "https://images.unsplash.com/photo-1598511472851-f421f1533c06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxzYWZldHklMjBib290c3xlbnwwfHx8fDE3MTY0OTczODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "safety boots"
+    },
+    {
+      "id": "SHOE-9302",
+      "description": "Black non-slip kitchen shoes.",
+      "imageUrl": "https://images.unsplash.com/photo-1608372235946-c475e5be3154?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxrbm9uLXNsaXAlMjBzaG9lc3xlbnwwfHx8fDE3MTY0OTczODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "non-slip shoes"
+    },
+    {
+      "id": "SHOE-9303",
+      "description": "Dark red dielectric boots.",
+      "imageUrl": "https://images.unsplash.com/photo-1627999086111-c91dc2014792?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxlbGVjdHJpY2FsJTIwc2FmZXR5JTIwYm9vdHN8ZW58MHx8fHwxNzE2NDk3MzgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "electrical boots"
+    },
+    {
+      "id": "SHOE-9304",
+      "description": "Lightweight gray safety sneakers.",
+      "imageUrl": "https://images.unsplash.com/photo-1549298916-c6c5f842330a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxzYWZldHklMjBzbmVha2Vyc3xlbnwwfHx8fDE3MTY0OTczODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "safety sneakers"
+    },
+    {
+      "id": "SHOE-9305",
+      "description": "Sturdy brown waterproof work boots.",
+      "imageUrl": "https://images.unsplash.com/photo-1526868662863-3adb1a75f1d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHx3b3JrJTIwYm9vdHN8ZW58MHx8fHwxNzE2NDk3MzgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "work boots"
+    },
+    {
+      "id": "SHOE-9401",
+      "description": "Dark cyan neoprene booties.",
+      "imageUrl": "https://images.unsplash.com/photo-1593348821948-2191c7a88484?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHx3YXRlciUyMHNob2VzfGVufDB8fHx8MTcxNjQ5NzQ2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "water shoes"
+    },
+    {
+      "id": "SHOE-9402",
+      "description": "Neon pink water shoes with drainage.",
+      "imageUrl": "https://images.unsplash.com/photo-1543163521-a4b31a83355b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxwaW5rJTIwd2F0ZXIlMjBzaG9lc3xlbnwwfHx8fDE3MTY0OTc0NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pink water-shoes"
+    },
+    {
+      "id": "SHOE-9403",
+      "description": "Lime green river sandals for kids.",
+      "imageUrl": "https://images.unsplash.com/photo-1572055744837-775b0b2474f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxyaXZlciUyMHNhbmRhbHN8ZW58MHx8fHwxNzE2NDk3NDYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "river sandals"
+    },
+    {
+      "id": "SHOE-9404",
+      "description": "Indigo blue kayak boots.",
+      "imageUrl": "https://images.unsplash.com/photo-1579309633397-4b67f10e4708?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxrYXlhayUyMHNob2VzfGVufDB8fHx8MTcxNjQ5NzQ2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kayak shoes"
+    },
+    {
+      "id": "SHOE-9405",
+      "description": "Stone gray amphibious shoes.",
+      "imageUrl": "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxhbXBoaWJpb3VzJTIwc2hvZXN8ZW58MHx8fHwxNzE2NDk3NDYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "amphibious shoes"
+    },
+    {
+      "id": "default",
+      "description": "A generic shoe placeholder.",
+      "imageUrl": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzaG9lfGVufDB8fHx8MTc2Mzg0Mjc5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shoe"
+    }
+  ]
+}

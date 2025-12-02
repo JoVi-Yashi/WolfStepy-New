@@ -1,0 +1,254 @@
+{
+  "entities": {
+    "User": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "User",
+      "type": "object",
+      "description": "Represents a user of the WolfStep application.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the user."
+        },
+        "username": {
+          "type": "string",
+          "description": "The username of the user."
+        },
+        "email": {
+          "type": "string",
+          "description": "The email address of the user.",
+          "format": "email"
+        },
+        "firstName": {
+          "type": "string",
+          "description": "The first name of the user."
+        },
+        "lastName": {
+          "type": "string",
+          "description": "The last name of the user."
+        },
+        "registrationDate": {
+          "type": "string",
+          "description": "The date and time the user registered.",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "id",
+        "username",
+        "email",
+        "registrationDate"
+      ]
+    },
+    "Session": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Session",
+      "type": "object",
+      "description": "Represents a user session for authentication purposes.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the session."
+        },
+        "userId": {
+          "type": "string",
+          "description": "Reference to the User. (Relationship: User 1:N Session)"
+        },
+        "sessionStart": {
+          "type": "string",
+          "description": "Timestamp when the session started.",
+          "format": "date-time"
+        },
+        "sessionEnd": {
+          "type": "string",
+          "description": "Timestamp when the session ended. Null if active",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "id",
+        "userId",
+        "sessionStart"
+      ]
+    },
+    "Category": {
+      "title": "Category",
+      "description": "Represents a product category.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the category."
+        },
+        "userId": {
+          "type": "string",
+          "description": "The ID of the user who owns this category."
+        },
+        "name": {
+          "type": "string",
+          "description": "The name of the category."
+        },
+        "description": {
+          "type": "string",
+          "description": "A brief description of the category."
+        },
+        "attributes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "A list of attributes for products in this category."
+        },
+        "productCount": {
+          "type": "number",
+          "description": "The number of products in this category."
+        }
+      },
+      "required": [
+        "id",
+        "userId",
+        "name",
+        "description",
+        "attributes"
+      ]
+    },
+    "Product": {
+      "title": "Product",
+      "description": "Represents a product in the inventory.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the product."
+        },
+        "userId": {
+          "type": "string",
+          "description": "The ID of the user who owns this product."
+        },
+        "title": {
+          "type": "string"
+        },
+        "etapa": {
+          "type": "string"
+        },
+        "categoria": {
+          "type": "string"
+        },
+        "size": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        },
+        "colorName": {
+          "type": "string"
+        },
+        "stock": {
+          "type": "number"
+        },
+        "imageUrl": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "id",
+        "userId",
+        "title",
+        "etapa",
+        "categoria",
+        "size",
+        "color",
+        "colorName",
+        "stock"
+      ]
+    }
+  },
+  "auth": {
+    "providers": [
+      "password",
+      "anonymous"
+    ]
+  },
+  "firestore": {
+    "structure": [
+      {
+        "path": "/users/{userId}",
+        "definition": {
+          "entityName": "User",
+          "schema": {
+            "$ref": "#/backend/entities/User"
+          },
+          "description": "Stores user profiles. 'userId' must match the Firebase Authentication UID. No denormalized fields are necessary as user data is inherently private.",
+          "params": [
+            {
+              "name": "userId",
+              "description": "The unique identifier for the user, corresponding to the Firebase Auth UID."
+            }
+          ]
+        }
+      },
+      {
+        "path": "/users/{userId}/sessions/{sessionId}",
+        "definition": {
+          "entityName": "Session",
+          "schema": {
+            "$ref": "#/backend/entities/Session"
+          },
+          "description": "Stores user session data. 'userId' must match the Firebase Authentication UID. No denormalized fields are necessary as session data is inherently private to the authenticated user.",
+          "params": [
+            {
+              "name": "userId",
+              "description": "The unique identifier for the user, corresponding to the Firebase Auth UID."
+            },
+            {
+              "name": "sessionId",
+              "description": "The unique identifier for the session."
+            }
+          ]
+        }
+      },
+      {
+        "path": "/users/{userId}/categories/{categoryId}",
+        "definition": {
+          "entityName": "Category",
+          "schema": {
+            "$ref": "#/backend/entities/Category"
+          },
+          "description": "Stores product categories for a specific user.",
+          "params": [
+            {
+              "name": "userId",
+              "description": "The user's unique ID."
+            },
+            {
+              "name": "categoryId",
+              "description": "The category's unique ID."
+            }
+          ]
+        }
+      },
+      {
+        "path": "/users/{userId}/products/{productId}",
+        "definition": {
+          "entityName": "Product",
+          "schema": {
+            "$ref": "#/backend/entities/Product"
+          },
+          "description": "Stores inventory products for a specific user.",
+          "params": [
+            {
+              "name": "userId",
+              "description": "The user's unique ID."
+            },
+            {
+              "name": "productId",
+              "description": "The product's unique ID."
+            }
+          ]
+        }
+      }
+    ],
+    "reasoning": "The Firestore structure is designed to manage user authentication, sessions, categories, and products, following the principle of Authorization Independence. The `/users/{userId}` collection stores user profiles, with `userId` matching the Firebase Authentication UID. Subcollections for `sessions`, `categories`, and `products` are nested under each user, ensuring data isolation and facilitating secure, user-centric queries and security rules."
+  }
+}
