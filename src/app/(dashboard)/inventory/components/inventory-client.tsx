@@ -126,7 +126,7 @@ export function InventoryClient() {
                     <Skeleton className="h-8 w-full" />
                 </div>
                 <div className="w-full p-4 space-y-4">
-                    {[...Array(5)].map((_, i) => (
+                    {[...new Array(5)].map((_, i) => (
                          <div key={i} className="flex items-center gap-4">
                             <Skeleton className="h-16 w-16" />
                             <Skeleton className="h-6 flex-1" />

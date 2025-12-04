@@ -222,7 +222,7 @@ export function ProductForm({ product, onSave, onDone, categories }: ProductForm
                         type="number"
                         {...field}
                         onChange={(e) =>
-                            field.onChange(parseInt(e.target.value, 10) || 0)
+                            field.onChange(Number.parseInt(e.target.value, 10) || 0)
                         }
                         />
                     </FormControl>
